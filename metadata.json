@@ -1,0 +1,6 @@
+{
+  "name": "Synthetic Voice Recognition",
+  "description": "Cybersecurity app detecting fraudulent phone conversations and suspicious AI-generated voices with real-time risk scoring and alert protocols.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

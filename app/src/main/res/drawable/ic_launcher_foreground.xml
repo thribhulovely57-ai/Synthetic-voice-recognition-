@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Security Shield Outer Shell with electric blue / cyan glow -->
+    <path
+        android:pathData="M54,22 L78,32 C78,56 68,74 54,86 C40,74 30,56 30,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0284C7" />
+                <item android:offset="0.5" android:color="#0369A1" />
+                <item android:offset="1.0" android:color="#075985" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Shield Rim -->
+    <path
+        android:pathData="M54,26 L74,34 C74,54 65,70 54,80 C43,70 34,54 34,34 Z"
+        android:fillColor="#0B132B" />
+    <!-- Alert Red Core Accent -->
+    <path
+        android:pathData="M54,29 L70,36 C70,52 62,65 54,74 C46,65 38,52 38,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="29"
+                android:endX="70"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Voice Soundwave Frequencies (Audio Spectrum + Shield Heartbeat) -->
+    <!-- Center bar -->
+    <path
+        android:pathData="M52,40 H56 V62 H52 Z"
+        android:fillColor="#38BDF8" />
+    <!-- Flanking bars (left) -->
+    <path
+        android:pathData="M46,45 H49 V57 H46 Z"
+        android:fillColor="#60A5FA" />
+    <path
+        android:pathData="M41,49 H43 V53 H41 Z"
+        android:fillColor="#F87171" />
+    <!-- Flanking bars (right) -->
+    <path
+        android:pathData="M59,44 H62 V58 H59 Z"
+        android:fillColor="#60A5FA" />
+    <path
+        android:pathData="M65,48 H67 V54 H65 Z"
+        android:fillColor="#F87171" />
+    <!-- Pulse Lock Dot / Indicator -->
+    <path
+        android:pathData="M54,34 A2.5,2.5 0 1,0 54,39 A2.5,2.5 0 1,0 54,34"
+        android:fillColor="#EF4444" />
+</vector>
